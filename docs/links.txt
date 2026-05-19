@@ -1,0 +1,9 @@
+Links externos da documentação:
+
+Documento TOGAF ADM:
+https://docs.google.com/document/d/1T9ke4EVy6AnBePjYWMD1XHzyEk5rQJ7hkydSufYdUg0/edit?usp=sharing
+
+Pitch no Canva:
+https://canva.link/9947ectxaycamm6
+
+Observação: os PDFs exportados desses links estão incluídos no repositório em /docs e /entrega para evitar problema de permissão no momento da correção.
