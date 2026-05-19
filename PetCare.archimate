@@ -12,12 +12,6 @@
     <element xsi:type="archimate:BusinessProcess" name="Cadastro do pet.  " id="id-48bb0caff67b45fd85790f0d8a9de259"/>
     <element xsi:type="archimate:BusinessFunction" name="Gerenciar dados do pet.  " id="id-eb4f59dcd97244f6b42174acaa4d26a7"/>
     <element xsi:type="archimate:BusinessEvent" name="Alerta gerado.  " id="id-5e082c1edb4445359b1d4b3a09d9d06a"/>
-    <element xsi:type="archimate:BusinessObject" name="sss" id="id-08cfb342991f4d0e8df470ec3a323480">
-      <documentation>Pet&#xD;
-Histórico Clínico&#xD;
-Alertas&#xD;
-Score de Saúde</documentation>
-    </element>
     <element xsi:type="archimate:BusinessObject" name="Pet" id="id-21e9bd9c184143fe8fab1125f2d894e4"/>
     <element xsi:type="archimate:BusinessObject" name="Histórico Clínico" id="id-bed2beac41a7441b9c58ad1bc727d8a5"/>
     <element xsi:type="archimate:BusinessObject" name="Alertas" id="id-980b985dcadd427aad499ce7735061f9"/>
@@ -80,7 +74,6 @@ Score de Saúde</documentation>
 &#xD;
 </documentation>
     </element>
-    <element xsi:type="archimate:Node" name="Servidor Dashboard Clínico" id="id-b3578b9997d549ac9a834326fb6bc124"/>
     <element xsi:type="archimate:Node" name="Servidor Banco de Dados" id="id-c49b6c04e19345498e255b4e6a6f5fa7"/>
     <element xsi:type="archimate:Device" name="dispositivo Tutor" id="id-c76ba62054b74712964eec5ac0c93536">
       <documentation>&#xD;
@@ -88,15 +81,6 @@ Score de Saúde</documentation>
 </documentation>
     </element>
     <element xsi:type="archimate:Device" name="Computador Clínica" id="id-2f6e4fb781794ece880faf5e3cd1d4a8"/>
-    <element xsi:type="archimate:Device" name="Sensores IoT" id="id-a2a1068f06d5423eacc44417c3d0a624"/>
-    <element xsi:type="archimate:SystemSoftware" name="Servidor Dashboard Clínico" id="id-817a390fc77a428aac426726c847d980">
-      <documentation>&#xD;
-PostgreSQL&#xD;
-&#xD;
-</documentation>
-    </element>
-    <element xsi:type="archimate:SystemSoftware" name="Spring Boot" id="id-b69e22ec62f740558486aec02a16434f"/>
-    <element xsi:type="archimate:SystemSoftware" name="Oracle Database" id="id-7c361452643d4fa08f80aef378622e38"/>
     <element xsi:type="archimate:Device" name="dispositivo  Veterinário" id="id-eecb2157916649a292fea0607facbade"/>
     <element xsi:type="archimate:Device" name="Sensores IoT" id="id-5b357d6ee6f64ea1af0276ed9ce091bc"/>
     <element xsi:type="archimate:SystemSoftware" name="Oracle Database" id="id-6a2edb1d437f49aa80ce3d19369a2b33"/>
@@ -106,18 +90,14 @@ PostgreSQL&#xD;
     <element xsi:type="archimate:SystemSoftware" name="ASP.NET Core" id="id-e8bfbd99e9154a53a76a36c1c65aa3a3"/>
     <element xsi:type="archimate:CommunicationNetwork" name="Internet" id="id-fbd68cda0c6544d799db57345f64c8de"/>
     <element xsi:type="archimate:CommunicationNetwork" name="Rede IoT" id="id-6dfd5eac91994ad3bfdac78d806e15f7"/>
-    <element xsi:type="archimate:Node" name="Node" id="id-8259851b12224c4e8179f61fda001a27"/>
     <element xsi:type="archimate:Node" name="Geração de Score" id="id-42b128eaa24d4a9094cb70d23f629e04"/>
-    <element xsi:type="archimate:Node" name="Node" id="id-f898a20debdd44fbba413d18e6f26478"/>
     <element xsi:type="archimate:Artifact" name="petcare-api.jar" id="id-950c10f35b69417d8f3c26629e16767a"/>
     <element xsi:type="archimate:Artifact" name="dashboard.war" id="id-601bc0f0f88a4228a472801b3e36e6a1"/>
     <element xsi:type="archimate:Artifact" name="mqtt-service" id="id-3bd0179672524abba3808eb7212c5075"/>
-    <element xsi:type="archimate:Node" name="Node" id="id-33078aa51a0f45eba700e215e7ef1c24"/>
   </folder>
   <folder name="Motivation" id="id-fc5b54928cb14f60bb50d701202748c9" type="motivation">
     <element xsi:type="archimate:Stakeholder" name="Clínica Veterinária" id="id-2a1e0ae933284d7ab4b52f2c7b337295"/>
     <element xsi:type="archimate:Driver" name="Crescimento de emergências veterinárias evitáveis" id="id-d103a32c0a7348d688144ff4f4413804"/>
-    <element xsi:type="archimate:Value" id="id-35503d42aeae4f4fbed897a79843bf19"/>
     <element xsi:type="archimate:Assessment" name="Modelo veterinário baseado em atendimento reativo" id="id-752f3155264b4666b871537ee6a7ffae"/>
     <element xsi:type="archimate:Goal" name="Implementar monitoramento preventivo inteligente para pets" id="id-af8b4493a7a44669b47945d7361c56f0"/>
     <element xsi:type="archimate:Principle" name="Arquitetura escalável baseada em APIs" id="id-0c77adde45f547d6bc84d72ff9b0bd86"/>
@@ -454,9 +434,6 @@ PostgreSQL&#xD;
       <child xsi:type="archimate:DiagramObject" id="id-30de64d8f4bb45ccaea11fb323acfbb0" archimateElement="id-6dfd5eac91994ad3bfdac78d806e15f7">
         <bounds x="1578" y="354" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-86970e40f4144aefb70372439ddb7d22" source="id-30de64d8f4bb45ccaea11fb323acfbb0" target="id-1412d54aa251439498311f9d85036b2c" archimateRelationship="id-8683fedfc3874b71bd2b977fc6b1c5bf"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-4a5b3357379141fca15effedaad7afc6" archimateElement="id-f898a20debdd44fbba413d18e6f26478">
-        <bounds x="864" y="2340" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-6b660c5157074fd295abc4afa0243a09" archimateElement="id-950c10f35b69417d8f3c26629e16767a">
         <bounds x="1871" y="522" width="120" height="55"/>
